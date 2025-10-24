@@ -13,7 +13,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center">
             <div className="inline-block mb-4 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm font-medium">
-              ✨ Automated Internal Mark Statement Generator
+              ✨ Automated Internal Mark Statement Generator SRM VDP
             </div>
             <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
               <span className="bg-gradient-to-r from-white to-cyan-200 bg-clip-text text-transparent">
