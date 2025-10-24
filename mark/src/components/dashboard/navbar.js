@@ -31,12 +31,12 @@ export default function DashboardNavbar({ user }) {
           {/* Logo and Brand */}
           <div className="flex items-center space-x-8">
             <Link href="/dashboard" className="flex items-center space-x-3">
-              <div className="bg-gradient-to-r from-blue-600 to-blue-800 p-2 rounded-lg">
-                <span className="text-xl font-bold text-white">SRM</span>
+              <div className="bg-gradient-to-r from-indigo-700 to-cyan-600 p-2 rounded-lg shadow-md">
+                <span className="text-xl font-bold text-white">AM</span>
               </div>
               <div className="hidden sm:block">
-                <span className="text-xl font-bold text-gray-900">Mark Evaluator</span>
-                <p className="text-xs text-gray-500">Faculty Dashboard</p>
+                <span className="text-xl font-bold text-gray-900">AutoMetric</span>
+                <p className="text-xs text-indigo-600 font-medium">Mark Statement Generator</p>
               </div>
             </Link>
 
@@ -48,7 +48,7 @@ export default function DashboardNavbar({ user }) {
                   href={item.path}
                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                     pathname === item.path
-                      ? 'bg-blue-50 text-blue-600'
+                      ? 'bg-gradient-to-r from-indigo-50 to-cyan-50 text-indigo-700 shadow-sm'
                       : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
                   }`}
                 >
@@ -74,7 +74,7 @@ export default function DashboardNavbar({ user }) {
                 onClick={() => setIsProfileOpen(!isProfileOpen)}
                 className="flex items-center space-x-3 p-2 rounded-lg hover:bg-gray-50 transition-colors"
               >
-                <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-blue-800 rounded-full flex items-center justify-center text-white font-semibold">
+                <div className="w-10 h-10 bg-gradient-to-r from-indigo-700 to-cyan-600 rounded-full flex items-center justify-center text-white font-semibold shadow-md">
                   {user?.full_name?.charAt(0).toUpperCase() || 'U'}
                 </div>
                 <div className="hidden lg:block text-left">
