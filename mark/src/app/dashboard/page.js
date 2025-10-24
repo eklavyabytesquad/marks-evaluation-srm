@@ -15,7 +15,7 @@ export default async function Dashboard() {
     <div className="min-h-screen bg-gray-50">
       <DashboardNavbar user={user} />
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="w-full px-4 sm:px-6 lg:px-8 py-8">
         {/* Welcome Header */}
         <div className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-xl shadow-lg p-8 mb-8 text-white">
           <h1 className="text-3xl font-bold mb-2">Welcome, {user.full_name}!</h1>

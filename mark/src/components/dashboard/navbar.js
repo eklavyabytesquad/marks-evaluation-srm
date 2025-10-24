@@ -17,15 +17,16 @@ export default function DashboardNavbar({ user }) {
 
   const navItems = [
     { name: 'Dashboard', path: '/dashboard', icon: '📊' },
+    { name: 'Subjects', path: '/dashboard/subjects', icon: '📚' },
     { name: 'Students', path: '/dashboard/students', icon: '👥' },
-    { name: 'Marks', path: '/dashboard/marks', icon: '📝' },
+    { name: 'Tests', path: '/dashboard/tests', icon: '�' },
+    { name: 'Marks', path: '/dashboard/marks', icon: '�' },
     { name: 'Reports', path: '/dashboard/reports', icon: '📈' },
-    { name: 'Settings', path: '/dashboard/settings', icon: '⚙️' },
   ];
 
   return (
     <nav className="bg-white shadow-lg border-b border-gray-200 sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo and Brand */}
           <div className="flex items-center space-x-8">
