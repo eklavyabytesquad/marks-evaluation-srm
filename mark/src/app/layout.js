@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "SRM Marks Evaluator - Academic Grade Management System",
-  description: "Streamline your academic evaluation process with SRM Marks Evaluator. Intelligent marks management system for educational institutions.",
+  title: "SRM Marks Statement Generator - Academic Grade Management System",
+  description: "Streamline your academic evaluation process with SRM Marks Statement Generator. Intelligent marks management system for educational institutions.",
 };
 
 export default function RootLayout({ children }) {
